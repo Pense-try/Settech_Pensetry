@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Settech</title>
+    <link rel="shortcut icon" href="./src/Img/engrenagem.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./src/CSS/reset.css">
+    <link rel="stylesheet" href="./src/CSS/variables.css">
+    <link rel="stylesheet" href="./src/CSS/navbar.css">
+    <link rel="stylesheet" href="./src/CSS/styles.css">
+</head>
+<body>
+    <header>
+        <nav class="nav-bar">
+            <div class="logo">
+                <a href="#"><img src="./src/Img/navbar/logo_settech_navbar.png" alt=""></a>
+            </div>
+            <div class="nav-list">
+                <ul>
+                    <li class="nav-item"><a href="#" class="nav-link">Início</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Sobre</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Projetos</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Serviços</a>
+                        <div class="dropdown-content">
+                            <a href="#">Serviço 1</a>
+                            <a href="#">Serviço 2</a>
+                            <a href="#">Serviço 3</a>
+                          </div>
+                    </li>
+                    <li class="nav-item"><a href="#" class="nav-link">Contato</a></li>
+                </ul>
+            </div>
+
+            <div class="mobile-menu-icon">
+                <button onclick="menuShow()"><img class="icon" src="./src/Img/navbar/menu-aberto.png" alt=""></button>
+            </div>
+        </nav>
+        <div class="mobile-menu">
+            <ul>
+                <li class="nav-item"><a href="#" class="nav-link">Início</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Projetos</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Sobre</a></li>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <section class="container__home">
+            <div class="home__bg__filter">
+            </div>
+
+            <div class="home__content">
+                <ul>
+                    <li><a href="#">Sobre</a></li>
+                    <li><a href="#">Projetos</a></li>
+                    <li><a href="#">Serviços</a></li>
+                </ul>
+
+                <h1>Automação e Soluções Industriais de Alta Tecnologia.</h1>
+                <p>Especialistas em elétrica, eletrônica e automação industrial para indústrias, comércios e fazendas.</p>
+
+                <div class="home__buttons">
+                    <a href="#about" class="home__button">Quem somos? <i class="fa-solid fa-arrow-right-long fa-lg"></i></a>
+                    <a href="#" class="home__button">Fale com Especialista <i class="fa-solid fa-arrow-right-long fa-lg"></i></a>
+                </div>
+            </div>
+        </section>
+
+        <section class="container__about" id="about">
+            <div class="about__content__transition">
+                <p>A Settech Industrial é especializada em soluções de elétrica, eletrônica e automação industrial, oferecendo tecnologia de ponta para otimizar operações em indústrias, comércios e fazendas. Com uma equipe altamente qualificzada e foco em inovação, a Settech projeta e implementa sistemas personalizados que garantem eficiência, segurança e alta performance para nossos clientes.</p>
+            </div>
+
+            <div class="about__content">
+                <div class="about__text">
+                    <h1>Sobre a Settech</h1>
+                    <p><strong>A Settech Industrial</strong> é uma empresa especializada em elétrica, eletrônica e automação industrial, dedicada a fornecer soluções tecnológicas de alta qualidade para indústrias, comércios e fazendas. Com uma equipe de especialistas qualificados, a Settech combina conhecimento técnico e inovação para otimizar operações, aumentar a eficiência e garantir segurança em cada projeto. Nossa abordagem personalizada nos permite desenvolver sistemas sob medida, sempre alinhados às necessidades específicas de cada setor, garantindo o melhor desempenho e confiança para nossos clientes.
+                        <br>
+                    <strong>A Settech Industrial</strong> foi fundada por Pedro Sette, formado em Eletromecânica pelo IFSP ( Campus São Paulo | Instituto Federal de Educação, Ciência e Tecnologia de São Paulo ) e com vasta experiência no setor. Com uma visão voltada à inovação e ao desenvolvimento de soluções personalizadas, Pedro lidera a equipe da Settech com o compromisso de oferecer tecnologia e eficiência para    
+                    </p>
+                    <a href="#diferences">Por que escolher a Settech?</a>
+                </div>
+
+                <div class="slider">
+                    <div class="slides">
+                        <img src="./src/Img/Img__slide_1.jpg" class="slide" alt="Imagem 1">
+                        <img src="./src/Img/Img__slide_2.jpg" class="slide" alt="Imagem 2">
+                        <img src="./src/Img/Img__slide_3.jpg" class="slide" alt="Imagem 3">
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div class="about__content__transition">
+                <p>A Settech Industrial reúne profissionais qualificados e experientes, comprometidos em garantir excelência em cada projeto. Com tecnologia de ponta e soluções inovadoras, oferecemos um atendimento personalizado que se adapta às necessidades de cada cliente. Nossas soluções são desenvolvidas sob medida para indústrias, comércios e fazendas, assegurando resultados eficientes e alinhados ao perfil de cada setor.</p>
+            </div>
+
+            <div class="diferences__content" id="diferences">
+                <div class="diferences__text">
+                    <h1>Por que escolher a Settech?</h1>
+
+                    <p>Na Settech Industrial, contamos com uma equipe altamente qualificada, composta por profissionais experientes que garantem excelência em cada projeto. Trabalhamos com tecnologia de ponta para oferecer soluções inovadoras e eficientes no setor industrial. Nosso atendimento é personalizado, ajustado para entender e atender às necessidades específicas de cada cliente, garantindo uma experiência completa e de confiança. Desenvolvemos soluções sob medida, projetadas especialmente para indústrias, comércios e fazendas, proporcionando resultados otimizados e alinhados ao perfil de cada setor.</p>
+                </div>
+
+                <div class="diferences__cards">
+                    <div class="diferences__card">
+                        <i class="fa-solid fa-helmet-safety fa-lg"></i>
+                        <h1>Expertise Técnica</h1>
+                        <p>Nossa equipe é formada por profissionais capacitados e experientes, que dominam as mais recentes tecnologias para garantir a melhor solução para o seu negócio.</p>
+                    </div>
+                    <div class="diferences__card">
+                        <i class="fa-solid fa-microchip fa-lg"></i>
+                        <h1>Inovação Constante</h1>
+                        <p>Investimos em tecnologias modernas para fornecer automação industrial, elétrica e eletrônica de alta qualidade, acompanhando as últimas tendências do mercado.</p>
+                    </div>
+                    <div class="diferences__card">
+                        <i class="fa-solid fa-headset fa-lg"></i>
+                        <h1>Foco no Cliente</h1>
+                        <p>Cada cliente recebe atenção individualizada, com atendimento dedicado para entender suas necessidades e oferecer a solução mais adequada.</p>
+                    </div>
+                    <div class="diferences__card">
+                        <i class="fa-solid fa-screwdriver-wrench fa-lg"></i>
+                        <h1>Projetos Customizados</h1>
+                        <p>Desenvolvemos soluções específicas para diferentes setores, como indústrias, fazendas e comércios, garantindo que cada projeto seja único e totalmente ajustado às demandas de cada cliente.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="about__content__transition">
+                <p>Conheça em detalhes como a Settech transforma tecnologia em soluções práticas e eficientes. Explore nossas áreas de atuação e descubra a melhor solução para suas necessidades</p>
+            </div>
+
+            <div class="services__content">
+                <div class="text__services">
+                    <h1>Nossos Serviços em Ação</h1>
+                    <p>Na Settech Industrial, oferecemos soluções especializadas em:</p>
+                    <ul>
+                        <li><strong>Instalações Elétricas Industriais:</strong> projetos elétricos completos e seguros;</li>
+                        <li><strong>Automação de Processos:</strong> integração de tecnologias para otimizar operações;</li>
+                        <li><strong>Manutenção e Suporte Técnico:</strong> atendimento rápido e qualificado;</li>
+                        <li><strong>Sistemas Sob Medida:</strong> desenvolvimento de soluções específicas para indústrias, comércios e fazendas.</li>
+                    </ul>
+                    <p>Explore cada um desses serviços e encontre a melhor solução para suas necessidades.</p>
+
+                    <div class="services__button">
+                        <a href="">Veja Todos os Serviços <i class="fa-solid fa-arrow-right-long fa-lg"></i></a>
+                        <a href="">Fale com Especialista <i class="fa-solid fa-arrow-right-long fa-lg"></i></a>
+                    </div>
+                </div>
+
+                <div class="contato__content">
+                    
+                </div>
+            </div>
+
+        </section>
+
+    </main>
+    <footer>
+
+    </footer>
+    
+    <script src="./src/JS/navbar.js"></script>
+    <script src="./src/JS/slider.js"></script>
+</body>
+</html>

@@ -1,0 +1,33 @@
+:root {
+    --primary-color: #000000;
+    --secondary-color: #ffffff;
+    --tertiary-color: #38b6ff;
+    --quaternary-color: #000000;
+
+    --bg-color-1: #38b6ff;
+    --bg-color-2: #1c82bd;
+    --bg-color-3: #f1f1f1;
+
+    --color-1: #000000;
+    --color-2: #ffffff;
+    --color-3: #38b6ff;
+
+    --shadow-1: 0px 0px 10px rgba(0, 0, 0, 0.2);
+
+    --primary-font: 'Lato', sans-serif;
+    --secondary-font: "Nunito Sans", serif;
+
+
+    --font-weight-1: 100;
+    --font-weight-3: 300;
+    --font-weight-5: 500;
+    --font-weight-7: 700;
+
+    --font-size-1: 2.4rem;
+    --font-size-2: 1.4rem;
+    --font-size-3: 1.2rem;
+
+    --font-size-mobile-1: 1.8rem;
+    --font-size-mobile-2: 1.2rem;
+    --font-size-mobile-3: 1rem;
+}

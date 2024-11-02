@@ -98,6 +98,31 @@ html, body, main {
     border: none;
 }
 
+@media screen and (max-width: 768px) {
+    .home__content {
+        margin-left: 4vw;
+        margin-top: 2rem;
+        gap: 1.6rem;
+    }
+    .home__content ul {
+        gap: 1rem;
+    }
+    .home__content ul li a {
+        font-size: 0.9rem;
+    }
+    .home__content h1 {
+        font-size: 1.8rem;
+    }
+    .home__content p {
+        font-size: 1rem;
+    }
+    .home__buttons a {
+        font-size: 0.8rem;
+        padding: 0.8rem 1rem;
+    }
+    
+}
+
 
 /* ABOUT */
 
@@ -126,6 +151,14 @@ html, body, main {
     font-family: var(--secondary-font);
     color: #ffffff;
     line-height: 2rem;
+}
+
+@media screen and (max-width: 768px) {
+    .about__content__transition p {
+        width: 90vw;
+        font-size: var(--font-size-5);
+        line-height: 1.2rem;
+    }
 }
 
 /* ABOUT CONTENT */
@@ -201,6 +234,30 @@ html, body, main {
     transition: opacity 1s;
   }
 
+  @media screen and (max-width: 730px) {
+    .about__content {
+        flex-direction: column-reverse;
+        gap: 2rem;
+    }
+    .about__text {
+        width: 90vw;
+    }
+    .about__text h1 {
+        font-size: var(--font-size-2);
+    }
+    .about__text p {
+        font-size: var(--font-size-4);
+        line-height: 1.4rem;
+        padding: 0 0 0 0.5rem;
+        border-left: 2px solid var(--bg-color-1);
+    }
+    .about__text a {
+        font-size: var(--font-size-3);
+    }
+
+    
+  }
+
 /* DIFERENCES */
 
 .diferences__content {
@@ -214,6 +271,7 @@ html, body, main {
 
 .diferences__text {
     padding-bottom: 4rem;
+    align-self: center;
 }
 
 .diferences__text h1 {
@@ -298,6 +356,47 @@ html, body, main {
     .diferences__cards {
         grid-template-columns: repeat( 2, 1fr );
     }
+}
+
+@media screen and (max-width: 768px) {
+    .diferences__content {
+        padding: 4rem 0;
+    }
+    .diferences__text {
+        padding-bottom: 2rem;
+    }
+    .diferences__text h1 {
+        font-size: var(--font-size-2);
+        padding-bottom: 1rem;
+    }
+    .diferences__text p {
+        width: 90vw;
+        font-size: var(--font-size-4);
+        line-height: 1.4rem;
+        margin: 0;
+    }
+    .diferences__cards {
+        grid-template-columns: repeat( 2, 1fr );
+        gap: 1rem;
+    }
+    .diferences__card {
+        width: 150px;
+        height: 150px;
+        padding: 0;
+        gap: 1.5rem;
+        border-bottom: solid 3px var(--color-3);
+    }
+    .diferences__card i {
+        font-size: 2rem;
+        padding: 0;
+    }
+    .diferences__card h1 {
+        font-size: var(--font-size-4);
+        padding: 0;
+    }
+    .diferences__card p {
+        display: none;
+    }
     
 }
 
@@ -360,7 +459,7 @@ html, body, main {
 }
 
 .services__button {
-    width: 100%;
+    
     display: flex;
     gap: 1rem;
     justify-content: center;
@@ -382,4 +481,184 @@ html, body, main {
 
 .services__button a:hover {
     background-color: var(--bg-color-2);
+}
+
+@media screen and (max-width: 768px) {
+    .services__content {
+        padding: 4rem 0;
+    }
+    .text__services {
+        gap: 1.2rem;
+    }
+    .text__services h1 {
+        font-size: var(--font-size-2);
+    }
+    .text__services p {
+        width: 90vw;
+        font-size: var(--font-size-4);
+        line-height: 1.4rem;
+    }
+    .text__services ul {
+        width: 80vw;
+    }
+    .text__services ul li {
+        font-size: var(--font-size-5);
+        padding-bottom: 0.5rem;
+    }
+    .services__button {
+        gap: 0.5rem;
+        flex-direction: column;
+    }
+    .services__button a {
+        font-size: var(--font-size-6);
+        padding: 1rem 1.2rem;
+    }
+}
+
+/* CONTACT */
+
+.contato__content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    padding: 8rem 0;
+    background-color: var(--bg-color-3);
+}
+
+.contato__text {
+    width: 50vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+    color: #000000;
+}
+
+.contato__text h1 {
+    width: 100%;
+    text-align: center;
+    font-size: var(--font-size-1);
+    font-weight: var(--font-weight-7);
+    font-family: var(--secondary-font);
+}
+
+.contato__text p {
+    width: 100%;
+    text-align: center;
+    font-size: var(--font-size-2);  
+    font-weight: var(--font-weight-3);
+    font-family: var(--secondary-font);
+    line-height: 1.6rem;
+}
+
+.contato__button {
+    width: 100%;
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.contato__button a {
+    padding: 1rem 1.2rem;
+    color: rgb(255, 255, 255);
+    font-family: var(--secondary-font);
+    font-size: var(--font-size-3);
+    font-weight: var(--font-weight-5);
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    background-color: var(--bg-color-1);
+    transition: all 0.2s ease-in-out;
+}
+
+.contato__button a:hover {
+    background-color: var(--bg-color-2);
+}
+
+.contato__text h2 {
+    width: 100%;
+    text-align: center;
+    font-size: var(--font-size-2);
+    font-weight: var(--font-weight-7);
+    font-family: var(--secondary-font);
+}
+
+.contato__social {
+    width: 100%;
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.contato__social a {
+    padding: 1rem 1.2rem;
+    color: rgb(255, 255, 255);
+    font-family: var(--secondary-font);
+    font-size: var(--font-size-3);
+    font-weight: var(--font-weight-5);
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    background-color: var(--bg-color-1);
+    transition: all 0.2s ease-in-out;
+}
+
+.contato__social a:hover {
+    background-color: var(--bg-color-2);
+}
+
+.contato__image {
+    width: 30vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contato__image img {
+    width: 500px;
+}
+
+@media screen and (max-width: 1024px) {
+    .contato__content {
+        flex-direction: column-reverse;
+    }
+    .contato__text {
+        width: 100%;
+    }
+    .contato__text h1 {
+        width: 100%;
+        font-size: var(--font-size-2);
+    }
+    .contato__text p {
+        width: 90%;
+        font-size: var(--font-size-4);
+    }
+    .contato__button {
+        width: 100%;
+    }
+    .contato__button a {
+        font-size: var(--font-size-4);
+    }
+    .contato__text h2 {
+        width: 90%;
+        font-size: var(--font-size-4);
+    }
+    .contato__social {
+        width: 100%;
+    }
+    .contato__social a {
+        font-size: var(--font-size-4);
+    }
+    .contato__image {
+        width: 100%;
+    }
+    .contato__image img {
+        width: 250px;
+    }
 }

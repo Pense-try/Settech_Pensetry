@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Settech</title>
+    <link rel="shortcut icon" href="./src/Img/engrenagem.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./src/CSS/reset.css">
+    <link rel="stylesheet" href="./src/CSS/variables.css">
+    <link rel="stylesheet" href="./src/CSS/navbar.css">
+    <link rel="stylesheet" href="./src/CSS/services.css">
+    <link rel="stylesheet" href="./src/CSS/footer.css">
+</head>
+<body>
+    <header>
+        <nav class="nav-bar">
+            <div class="logo">
+                <a href="#"><img src="./src/Img/navbar/logo_settech_navbar.png" alt=""></a>
+            </div>
+            <div class="nav-list">
+                <ul>
+                    <li class="nav-item"><a href="./index.html" class="nav-link">Início</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Sobre</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Projetos</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Serviços</a>
+                        <div class="dropdown-content">
+                            <a href="#">Elétrica/Eletrônica</a>
+                            <a href="#">Automação Industrial</a>
+                            <a href="#">Painéis Solares</a>
+                          </div>
+                    </li>
+                    <li class="nav-item"><a href="#" class="nav-link">Contato</a></li>
+                </ul>
+            </div>
+
+            <div class="mobile-menu-icon">
+                <button onclick="menuShow()"><img class="icon" src="./src/Img/navbar/menu-aberto.png" alt=""></button>
+            </div>
+        </nav>
+        <div class="mobile-menu">
+            <ul>
+                <li class="nav-item"><a href="#" class="nav-link">Início</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Projetos</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Sobre</a></li>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <section class="container__home">
+            <div class="home__bg__filter">
+            </div>
+
+            <div class="home__content">
+                <ul>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">Sobre</a></li>
+                    <li><a href="#">Projetos</a></li>
+                </ul>
+
+                <h1>Tecnologia e Inovação a Serviço da Indústria</h1>
+                <p>A Settech Industrial oferece soluções inovadoras para aumentar a eficiência e segurança no setor industrial. Com uma equipe qualificada e tecnologia de ponta, atendemos de forma personalizada empresas que buscam excelência, desde instalações complexas até automação avançada e energia sustentável.</p>
+
+                <div class="home__buttons">
+                    <a href="#box_service" class="home__button">Nossos Serviços <i class="fa-solid fa-arrow-right-long fa-lg"></i></a>
+                    <a href="#" class="home__button">Fale com Especialista <i class="fa-solid fa-arrow-right-long fa-lg"></i></a>
+                </div>
+            </div>
+        </section>
+
+        <section class="services">
+            <div class="about__content__transition">
+                <p>Nossa equipe altamente qualificada e nossa tecnologia de ponta garantem um atendimento de qualidade, projetado para superar as expectativas e atender às demandas específicas de cada setor — da instalação de sistemas complexos à automação avançada e energia sustentável.</p>
+            </div>
+
+            <div class="services__content" id="box_service">
+                <div class="box__services box__services--1">
+                    <div class="box__services__filter"></div>
+                    <i class="fa-solid fa-bolt"></i>
+                    <h1>Elétrica - Eletrônica</h1>
+                    <p>Oferecemos soluções completas em elétrica e eletrônica para atender às demandas de instalações e manutenção, garantindo segurança e eficiência para indústrias.</p>
+                    <a href="">Ver mais <i class="fa-solid fa-arrow-right-long fa-lg"></i></a>
+                </div>
+                <div class="box__services box__services--2">
+                    <div class="box__services__filter"></div>
+                    <i class="fa-solid fa-industry"></i>
+                    <h1>Automação Industrial</h1>
+                    <p>Com foco em otimização e precisão, nossos serviços de automação industrial integram sistemas que elevam a produtividade e a segurança, adaptando-se às necessidades de cada setor.</p>
+                    <a href="">Ver mais <i class="fa-solid fa-arrow-right-long fa-lg"></i></a>
+                </div>
+                <div class="box__services box__services--3">
+                    <div class="box__services__filter"></div>
+                    <i class="fa-solid fa-solar-panel"></i>
+                    <h1>Painéis Solares</h1>
+                    <p>Instalamos sistemas de energia solar fotovoltaica que reduzem custos e promovem sustentabilidade, oferecendo uma fonte de energia limpa e econômica para diversos tipos de negócios.</p>
+                    <a href="">Ver mais <i class="fa-solid fa-arrow-right-long fa-lg"></i></a>
+                </div>
+            </div>
+
+            <section class="container__services">
+                <div class="about__content__transition">
+                    <p>Potência e segurança para o seu negócio, sempre.</p>
+                </div>
+    
+                <div class="container__services__box">
+                    <div class="container__services__box__content">
+                        <h1>Elétrica/Eletrônica</h1>
+    
+                        <p>Na Settech Industrial, somos especialistas em elétrica e eletrônica, oferecendo serviços essenciais para indústrias, comércios e fazendas que demandam confiabilidade e segurança. Nossa equipe está pronta para lidar com instalações complexas, desde transformadores de alta tensão até sistemas de proteção contra descargas atmosféricas (SPDA), assegurando que seu empreendimento opere com máxima eficiência. Com soluções personalizadas e tecnologia de ponta, cuidamos de cada detalhe, desde a elaboração de projetos até a execução de instalações e manutenções, garantindo um fornecimento de energia seguro e contínuo.</p>
+
+                        <div class="container__services__box__content__buttons">
+                            <a href="">Ver todos os serviços <i class="fa-solid fa-arrow-right-long fa-lg"></i></a>
+                            <a href="">Fale com Especialista <i class="fa-solid fa-arrow-right-long fa-lg"></i></a>
+                        </div>
+                    </div>
+                    <div class="container__services__box__image bg__1">
+                    </div>
+                </div>
+
+                <div class="about__content__transition">
+                    <p>Serviços de qualidade - Eletrônica e Elétrica.</p>
+                </div>
+
+                <div class="services__exemple">
+                    <h1>Serviços em Elétrica/Eletrônica <i class="fa-solid fa-bolt"></i></h1>
+
+                    <div class="services__exemple__description">
+                        
+                        <div class="services__exemple__description__text">
+
+                            <p><strong>Instalações Industriais</strong>
+                                <br>
+                                Garantimos a eficiência e segurança em instalações elétricas industriais completas, adequadas para suportar altas demandas e maximizar o desempenho dos equipamentos. 
+                            </p>
+                            <p><strong>SPDA e Solda Exotérmica</strong>
+                                <br>
+                                Oferecemos instalação de Sistemas de Proteção contra Descargas Atmosféricas (SPDA) com solda exotérmica, protegendo suas operações contra surtos elétricos e descargas atmosféricas.
+                            </p>
+                            <p><strong>Transformadores de Alta e Baixa Tensão</strong>
+                                <br>
+                                Realizamos a instalação e manutenção de transformadores para alta e baixa tensão, garantindo uma distribuição de energia segura e adequada ao seu negócio.
+                            </p>
+                            <p><strong>Cabines Primárias</strong>
+                                <br>
+                                Projetamos e instalamos cabines primárias, garantindo a distribuição correta e segura da energia em redes industriais de médio e alto porte.
+                            </p>
+                            <p><strong>Eletrônica Industrial</strong>
+                                <br>
+                                Nossa equipe especializada desenvolve soluções eletrônicas para manutenção e otimização de sistemas, assegurando a confiabilidade dos processos e máquinas.
+                            </p>
+                            <p><strong>Geradores de Energia a Diesel e Gasolina</strong>
+                                <br>
+                                Instalamos e realizamos a manutenção de geradores de energia a diesel e gasolina, oferecendo suporte contínuo e segurança contra interrupções na sua operação.
+                            </p>
+                            <p><strong>Elaboração e Execução de Projetos Elétricos</strong>
+                                <br>
+                                Criamos e implementamos projetos elétricos personalizados, do planejamento à execução, ajustados às necessidades e regulamentos de cada setor.
+                            </p>
+                        </div>
+
+                        <div class="services__exemple__description__caption">
+                            <h2>Potência e Segurança ao Seu Alcance</h2>
+
+                            <p>Conte com a Settech para soluções elétricas e eletrônicas confiáveis, feitas para atender as necessidades do seu negócio com qualidade e segurança. Nossa equipe está pronta para transformar seu projeto em realidade.</p>
+
+                            <div class="services__exemple__description__caption__buttons">
+                                <a href="">Faça seu orçamento <i class="fa-brands fa-whatsapp"></i></a>
+                                <a href="">Projetos - Ver todos <i class="fa-solid fa-arrow-right-long fa-lg"></i></a>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+    
+                <div class="about__content__transition">
+                    <p>Eficiência que transforma sua operação.</p>
+                </div>
+                
+                <div class="container__services__box">
+                    <div class="container__services__box__image bg__2">
+                    </div>
+                    <div class="container__services__box__content container__services__box__content--right">
+                        <h1>Automação Industrial</h1>
+    
+                        <p>A automação é o coração da indústria moderna, e na Settech, temos o compromisso de transformar seus processos produtivos com soluções avançadas e personalizadas. Oferecemos uma gama completa de serviços de automação industrial que tornam seu negócio mais ágil, seguro e competitivo. Nossa equipe especializada projeta e implementa sistemas integrados, desde hidráulica e pneumática até manutenção mecânica, otimizando cada etapa para que suas operações atinjam o máximo de produtividade e precisão. Conte conosco para levar sua produção ao próximo nível.</p>
+
+                        <div class="container__services__box__content__buttons">
+                            <a href="">Ver todos os serviços <i class="fa-solid fa-arrow-right-long fa-lg"></i></a>
+                            <a href="">Fale com Especialista <i class="fa-solid fa-arrow-right-long fa-lg"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="about__content__transition">
+                    <p>Serviços de qualidade - Automação Industrial.</p>
+                </div>
+
+                <div class="services__exemple">
+                    <h1>Serviços em Automação Industrial <i class="fa-solid fa-gear"></i></h1>
+
+                    <div class="services__exemple__description">
+                        
+                        <div class="services__exemple__description__text">
+
+                            <p><strong>Automação Industrial</strong>
+                                <br>
+                                Desenvolvemos soluções de automação para aumentar a produtividade e segurança em indústrias, integrando sistemas que facilitam o controle e monitoramento em tempo real. 
+                            </p>
+                            <p><strong>Hidráulica e Pneumática Industrial</strong>
+                                <br>
+                                Oferecemos instalação e manutenção de sistemas hidráulicos e pneumáticos industriais, otimizando os processos de movimentação, força e controle para diferentes setores.
+                            </p>
+                            <p><strong>Mecânica Industrial</strong>
+                                <br>
+                                Nossa equipe fornece soluções de manutenção e projetos mecânicos que melhoram a performance de equipamentos industriais, aumentando a longevidade e eficiência das máquinas.
+                            </p>
+                        </div>
+
+                        <div class="services__exemple__description__caption">
+                            <h2>Eficiência que Gera Resultados</h2>
+
+                            <p>Transforme sua operação com a nossa expertise em automação industrial. Desenvolvemos sistemas integrados que aumentam a produtividade e precisão do seu processo.</p>
+
+                            <div class="services__exemple__description__caption__buttons">
+                                <a href="">Faça seu orçamento <i class="fa-brands fa-whatsapp"></i></a>
+                                <a href="">Projetos - Ver todos <i class="fa-solid fa-arrow-right-long fa-lg"></i></a>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+
+                <div class="about__content__transition">
+                    <p>Energia limpa para um futuro sustentável.</p>
+                </div>
+
+                <div class="container__services__box">
+                    <div class="container__services__box__content">
+                        <h1>Painéis Solares</h1>
+    
+                        <p>A Settech Industrial acredita no poder da energia renovável e na economia sustentável. Nosso serviço de instalação de painéis solares fotovoltaicos oferece a oportunidade de reduzir custos com energia e diminuir o impacto ambiental. Com projetos personalizados e uma equipe técnica experiente, ajudamos seu negócio a adotar uma solução energética limpa e eficiente, alinhada com as demandas de sustentabilidade atuais. Seja para indústrias, fazendas ou comércios, nossos sistemas solares são projetados para garantir economia e confiabilidade a longo prazo.</p>
+
+                        <div class="container__services__box__content__buttons">
+                            <a href="">Ver todos os serviços <i class="fa-solid fa-arrow-right-long fa-lg"></i></a>
+                            <a href="">Fale com Especialista <i class="fa-solid fa-arrow-right-long fa-lg"></i></a>
+                        </div>
+                    </div>
+                    <div class="container__services__box__image bg__3">
+                    </div>
+                </div>
+
+                <div class="about__content__transition">
+                    <p>Serviços de qualidade - Energia Limpa.</p>
+                </div>
+
+                <div class="services__exemple">
+                    <h1>Serviços em Painéis Solares <i class="fa-solid fa-leaf"></i></i></h1>
+
+                    <div class="services__exemple__description">
+                        
+                        <div class="services__exemple__description__text">
+
+                            <p><strong>Instalação de Sistemas Fotovoltaicos</strong>
+                                <br>
+                                Realizamos a instalação de sistemas solares fotovoltaicos para residências, comércios e indústrias, garantindo eficiência energética e economia a longo prazo. 
+                            </p>
+                            <p><strong>Manutenção Preventiva e Corretiva de Painéis Solares</strong>
+                                <br>
+                                Oferecemos manutenção regular e reparos para assegurar o máximo desempenho dos seus painéis solares, aumentando a vida útil do sistema.
+                            </p>
+                            <p><strong>Monitoramento e Análise de Desempenho Solar</strong>
+                                <br>
+                                Implantamos sistemas de monitoramento para análise contínua da eficiência energética, permitindo ajustes e otimizações em tempo real.
+                            </p>
+                        </div>
+
+                        <div class="services__exemple__description__caption">
+                            <h2>Energia Limpa e Econômica para o Seu Negócio</h2>
+
+                            <p>A Settech oferece soluções em energia solar que reduzem custos e promovem sustentabilidade. Junte-se a nós para fazer do seu negócio uma referência em inovação e economia de energia.</p>
+
+                            <div class="services__exemple__description__caption__buttons">
+                                <a href="">Faça seu orçamento <i class="fa-brands fa-whatsapp"></i></a>
+                                <a href="">Projetos - Ver todos <i class="fa-solid fa-arrow-right-long fa-lg"></i></a>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+
+                
+            </section>
+            
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer__content">
+            <div class="logo__footer">
+                <img src="./src/Img/logo_settech.png" alt="">
+            </div>
+
+            <div class="footer__links">
+                <ul>
+                    <li><a href="#">Início</a></li>
+                    <li><a href="#">Projetos</a></li>
+                    <li><a href="#">Sobre</a></li>
+                    <li><a href="#">Parceiros</a></li>
+                </ul>
+                <ul>
+                    <li><a href="#">Serviços</a></li>
+                    <li><a href="#">Elétrica/Eletrônica</a></li>
+                    <li><a href="#">Automação Industrial</a></li>
+                    <li><a href="#">Painês Solares</a></li>
+                </ul>
+                <ul>
+                    <li><a href="#contato">Contato</a></li>
+                    <li><a href="#">Fale com Especialista</a></li>
+                </ul>
+            </div>
+
+            <div class="footer__social">
+                <a href="https://www.instagram.com/settech_industrial/profilecard/?igsh=cnBuMmM0M2o4Ympn" target="_blank"><i class="fa-brands fa-instagram fa-lg"></i></a> 
+                <a href=""><i class="fa-brands fa-whatsapp fa-lg"></i></a>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="./src/JS/navbar.js"></script>
+</body>
+</html>

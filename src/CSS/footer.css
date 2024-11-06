@@ -72,3 +72,14 @@ footer {
     color: var(--color-2);
 }
 
+@media screen and (max-width: 768px) {
+    .footer__content {
+        flex-direction: column;
+        gap: 2rem;
+        padding: 4rem;
+    }
+    .footer__links {
+        flex-direction: column;
+        gap: 2rem;
+    }
+}

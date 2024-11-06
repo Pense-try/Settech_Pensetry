@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Settech</title>
+    <link rel="shortcut icon" href="./src/Img/engrenagem.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./src/CSS/reset.css">
+    <link rel="stylesheet" href="./src/CSS/variables.css">
+    <link rel="stylesheet" href="./src/CSS/navbar.css">
+    <link rel="stylesheet" href="./src/CSS/projetos.css">
+    <link rel="stylesheet" href="./src/CSS/footer.css">
+    <link rel="stylesheet" href="./src/CSS/swiper.css">
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+</head>
+<body>
+    <header>
+        <nav class="nav-bar">
+            <div class="logo">
+                <a href="#"><img src="./src/Img/navbar/logo_settech_navbar.png" alt=""></a>
+            </div>
+            <div class="nav-list">
+                <ul>
+                    <li class="nav-item"><a href="#" class="nav-link">Início</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Sobre</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Projetos</a></li>
+                    <li class="nav-item"><a href="./servicos.html" class="nav-link">Serviços</a>
+                        <div class="dropdown-content">
+                            <a href="#">Elétrica/Eletrônica</a>
+                            <a href="#">Automação Industrial</a>
+                            <a href="#">Painéis Solares</a>
+                          </div>
+                    </li>
+                    <li class="nav-item"><a href="#" class="nav-link">Contato</a></li>
+                </ul>
+            </div>
+
+            <div class="mobile-menu-icon">
+                <button onclick="menuShow()"><img class="icon" src="./src/Img/navbar/menu-aberto.png" alt=""></button>
+            </div>
+        </nav>
+        <div class="mobile-menu">
+            <ul>
+                <li class="nav-item"><a href="#" class="nav-link">Início</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Projetos</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Sobre</a></li>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <section class="container__home">
+            <div class="home__bg__filter">
+            </div>
+
+            <div class="home__content">
+                <ul>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">Sobre</a></li>
+                    <li><a href="#">Serviços</a></li>
+                    <li><a href="https://www.instagram.com/settech_industrial/profilecard/?igsh=cnBuMmM0M2o4Ympn" target="_blank"><i class="fa-brands fa-instagram fa-lg"></i></a></li>
+                </ul>
+
+                <h1>Nossos Projetos em Ação</h1>
+                <p>Conheça projetos realizados pela Settech, cada um evidenciando nosso compromisso com qualidade, inovação e soluções sob medida, transformando ideias em resultados concretos.</p>
+
+                <div class="home__buttons">
+                    <a href="#about" class="home__button">Quem somos? <i class="fa-solid fa-arrow-right-long fa-lg"></i></a>
+                    <a href="#" class="home__button">Fale com Especialista <i class="fa-solid fa-arrow-right-long fa-lg"></i></a>
+                </div>
+            </div>
+        </section>
+
+        <section class="container__projects">
+            <div class="about__content__transition">
+                <p>Conheça nossos projetos</p>
+            </div>
+        </section>
+
+        <div class="swiper__container">
+            <div class="swiper__bg__filter">
+            </div>
+
+            <h1>Nossos Projetos em Ação</h1>
+            <!-- Slider main container -->
+               <div class="swiper">
+                   <!-- Additional required wrapper -->
+                   <div class="swiper-wrapper">
+                   <!-- Slides -->
+                       <div class="swiper-slide">
+                            <div class="slide">
+                                <div class="slide__text">
+                                    <h2>Instalação de Iluminação e Ventiladores Acionados pelo Celular</h2>
+                                    <p>Projeto de automação para controle de iluminação e ventilação via celular, oferecendo praticidade e controle remoto. Essa solução garante conforto e eficiência energética, permitindo ajustes personalizados a qualquer momento.</p>
+                                </div>
+                                <div class="slide__img">
+                                    <img src="./src/Img/projetos/IMG__slide1.jpg" alt="">
+                                </div>
+                            </div>
+                       </div>
+                       <div class="swiper-slide">
+                            <div class="slide">
+                                <div class="slide__text">
+                                    <h2>Disjuntores de Subestação</h2>
+                                    <p>Instalação e configuração de disjuntores para subestação, assegurando a proteção e o gerenciamento eficiente da distribuição elétrica em instalações de grande porte. O projeto aumenta a segurança e previne falhas operacionais.</p>
+                                </div>
+                                <div class="slide__img">
+                                    <img class="img__mb" src="./src/Img/projetos/IMG__slide2.jpg" alt="">
+                                </div>
+                            </div>
+                       </div>
+                       <div class="swiper-slide">
+                            <div class="slide">
+                                <div class="slide__text">
+                                    <h2>Montagem de Painel Elétrico</h2>
+                                    <p>Montagem personalizada de painéis elétricos para uma distribuição segura e eficiente de energia. Este painel foi projetado para otimizar o desempenho e simplificar a manutenção, garantindo operação confiável em diferentes setores.</p>
+                                </div>
+                                <div class="slide__img">
+                                    <img class="img__mb" src="./src/Img/projetos/IMG__slide3.jpg" alt="">
+                                </div>
+                            </div>
+                       </div>
+                       <div class="swiper-slide">
+                            <div class="slide">
+                                <div class="slide__text">
+                                    <h2>Instalação de Estação de Carregamento para Carro Elétrico</h2>
+                                    <p>Projeto de instalação de uma estação de carregamento para veículos elétricos, promovendo sustentabilidade e eficiência. A solução oferece carregamento rápido e seguro, facilitando a transição para uma mobilidade mais ecológica.</p>
+                                </div>
+                                <div class="slide__img">
+                                    <img class="img__mb" src="./src/Img/projetos/IMG__slide4.jpg" alt="">
+                                </div>
+                            </div>
+                       </div>
+                       <div class="swiper-slide">
+                            <div class="slide">
+                                <div class="slide__text">
+                                    <h2>Instalação de Iluminação</h2>
+                                    <p>Implementação de um sistema de iluminação industrial eficiente e seguro, adaptado às necessidades do ambiente de trabalho. Esse projeto aprimora a visibilidade, reduz custos de energia e melhora o ambiente para os colaboradores.</p>
+                                </div>
+                                <div class="slide__img">
+                                    <img src="./src/Img/projetos/IMG__slide5.jpg" alt="">
+                                </div>
+                            </div>
+                       </div>
+                       
+                   </div>
+                   <!-- If we need navigation buttons -->
+                   <div class="swiper-button-prev swiper-button"></div>
+                   <div class="swiper-button-next swiper-button"></div>
+           </div>
+       </div>
+            
+
+    </main>
+
+    <footer>
+        <div class="footer__content">
+            <div class="logo__footer">
+                <img src="./src/Img/logo_settech.png" alt="">
+            </div>
+
+            <div class="footer__links">
+                <ul>
+                    <li><a href="#">Início</a></li>
+                    <li><a href="#">Projetos</a></li>
+                    <li><a href="#">Sobre</a></li>
+                    <li><a href="#">Parceiros</a></li>
+                </ul>
+                <ul>
+                    <li><a href="#">Serviços</a></li>
+                    <li><a href="#">Elétrica/Eletrônica</a></li>
+                    <li><a href="#">Automação Industrial</a></li>
+                    <li><a href="#">Painês Solares</a></li>
+                </ul>
+                <ul>
+                    <li><a href="#contato">Contato</a></li>
+                    <li><a href="#">Fale com Especialista</a></li>
+                </ul>
+            </div>
+
+            <div class="footer__social">
+                <a href="https://www.instagram.com/settech_industrial/profilecard/?igsh=cnBuMmM0M2o4Ympn" target="_blank"><i class="fa-brands fa-instagram fa-lg"></i></a> 
+                <a href=""><i class="fa-brands fa-whatsapp fa-lg"></i></a>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="./src/JS/navbar.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script>
+        const swiper = new Swiper('.swiper', {
+        // Optional parameters
+        direction: 'horizontal',
+        slidesPerView: 1,
+        loop: true,
+
+        // Navigation arrows
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+    });
+    </script>
+</body>
+</html>

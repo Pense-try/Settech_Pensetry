@@ -646,9 +646,13 @@ html, body {
     }
     .contato__button {
         width: 100%;
+        flex-direction: column;
+        align-items: center;
     }
     .contato__button a {
+        width: 60vw;
         font-size: var(--font-size-4);
+
     }
     .contato__text h2 {
         width: 90%;
@@ -666,4 +670,29 @@ html, body {
     .contato__image img {
         width: 250px;
     }
+}
+
+@media screen and (max-width: 768px) {
+    .contato__content {
+        padding: 4rem 0;
+    }
+    .contato__text h1 {
+        font-size: var(--font-size-3);
+    }
+    .contato__text p {
+        font-size: var(--font-size-5);
+    }
+    .contato__button a {
+        font-size: var(--font-size-5);
+    }
+    .contato__text h2 {
+        font-size: var(--font-size-5);
+    }
+    .contato__social a {
+        font-size: var(--font-size-5);
+    }
+    .contato__image img {
+        width: 300px;
+    }
+    
 }

@@ -4,7 +4,7 @@
 
     <!-- Home Page -->
     <url>
-        <loc>https://www.seusite.com/</loc>
+        <loc>https://settechindustrial.com.br</loc>
         <lastmod>2024-11-04</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
@@ -12,7 +12,7 @@
 
     <!-- Services Page -->
     <url>
-        <loc>https://www.seusite.com/sobre</loc>
+        <loc>https://settechindustrial.com.br/servicos</loc>
         <lastmod>2024-11-04</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
@@ -20,7 +20,7 @@
 
     <!-- Project Page -->
     <url>
-        <loc>https://www.seusite.com/servicos</loc>
+        <loc>https://settechindustrial.com.br/projetos</loc>
         <lastmod>2024-11-04</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
